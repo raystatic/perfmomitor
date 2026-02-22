@@ -8,7 +8,6 @@ A lightweight, interactive Android performance profiling CLI tool built with Kot
 - **Cold Start Benchmarking**: Measures the time it takes for your app to become interactive.
 - **Live Performance Dashboard**: Real-time terminal table showing current Memory and CPU load.
 - **Multi-Core CPU Tracking**: Accurately captures multi-threaded activity (e.g., values > 100% on multi-core devices).
-- **Interactive Profiling**: Monitor specific features (e.g., "Login Flow", "Video Playback") without complex test scripts.
 - **Skip Startup Mode**: Attach the monitor to an already running process to test deep-link features.
 - **Zero Dependencies**: A single-file Kotlin script (`.main.kts`) that runs on any machine with `kotlinc`.
 
