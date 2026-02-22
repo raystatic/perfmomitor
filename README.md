@@ -1,5 +1,11 @@
 # PerfMonitor 🚀
 
+
+https://github.com/user-attachments/assets/61d813be-c517-4c58-8cc1-7fe243bd98ba
+
+
+
+
 A lightweight, interactive Android performance profiling CLI tool built with Kotlin. 
 
 `PerfMonitor` allows developers to capture real-time Memory (RAM) and CPU usage metrics while manually interacting with an Android application. It also provides a "Cold Start" measurement to benchmark app launch efficiency.
