@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidApp</string>
-    <string name="hello_world">Hello, World!</string>
-    <string name="say_hello">Say Hello</string>
-    <string name="greeting_clicked">Hello from Android!</string>
+    <string name="app_name">Compose Perf Demo</string>
 </resources>

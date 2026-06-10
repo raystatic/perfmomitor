@@ -1,20 +1,23 @@
 package com.example.androidapp
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.example.androidapp.databinding.ActivityMainBinding
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import com.example.androidapp.navigation.AppNavGraph
 
-class MainActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityMainBinding
-
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        binding.greetingButton.setOnClickListener {
-            binding.greetingText.text = getString(R.string.greeting_clicked)
+        enableEdgeToEdge()
+        setContent {
+            MaterialTheme {
+                Surface {
+                    AppNavGraph()
+                }
+            }
         }
     }
 }

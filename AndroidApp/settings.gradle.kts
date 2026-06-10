@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidApp"
 include(":app")
+include(":macrobenchmark")
